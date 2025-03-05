@@ -37,7 +37,7 @@ function Navigationbar(props) {
                 
               </li>
               <li><a href="/blog">Blog</a></li>
-              <li><a href="/contact">Contacs</a></li>
+              <li><a href="/contact">Contact us</a></li>
               <li>                
               </li>
             </ul>

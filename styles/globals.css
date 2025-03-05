@@ -1838,7 +1838,7 @@ overflow: hidden;
     .contacts{
       padding-left: 0%;
       display: flex;
-      flex: column !important;
+      flex-direction: column !important;
     
     }
  
