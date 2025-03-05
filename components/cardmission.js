@@ -8,15 +8,17 @@ import * as Iconsfc from "react-icons/fc";
 import * as Iconsgr from "react-icons/gr";
 import * as Iconsci from "react-icons/ci";
 import * as Iconstfi from "react-icons/tfi";
-
+import { TbTargetArrow } from "react-icons/tb";
+import { HiMiniEye } from "react-icons/hi2";
+import { PiMedalBold } from "react-icons/pi";
 const Missioncard = (pros) => {
 
-if(pros.icone=="TfiStatsUp"){
+if(pros.icone=="TbTargetArrow"){
 return (
 <div className="bloc_ombres col-lg-4 col-6 col-md-6">
   <div className="whychooseus-item">
     <div className="whychooseus-item-icon">
-      <Iconstfi.TfiStatsUp style={{fontSize:'38px',color:'#00000F'}} />
+      <TbTargetArrow style={{fontSize:'38px',color:'#00000F'}} />
     </div>
     <div className="whychooseus-item-content">
       <h3 className="whychooseus-heading dark-title">{pros.titre}</h3>
@@ -28,12 +30,12 @@ return (
 </div>
 );
 }
-else if(pros.icone=="CiStar"){
+else if(pros.icone=="PiMedalBold"){
 return (
 <div className="bloc_ombres col-lg-4 col-6 col-md-6 ">
 <div className="whychooseus-item">
     <div className=" whychooseus-item-icon">
-      <Iconsci.CiStar style={{fontSize:'38px',color:'#00000F'}} />
+      <PiMedalBold style={{fontSize:'38px',color:'#00000F'}} />
     </div>
     <div className="whychooseus-item-content">
       <h3 className="whychooseus-heading dark-title">{pros.titre}</h3>
@@ -45,12 +47,12 @@ return (
 </div>
 );
 }
-else if(pros.icone=="GrDeliver"){
+else if(pros.icone=="HiMiniEye"){
 return (
 <div className="bloc_ombres col-lg-4 col-6 col-md-6">
 <div className="whychooseus-item">
     <div className="whychooseus-item-icon">
-      <Iconsgr.GrDeliver style={{fontSize:'38px',color:'#00000F'}} />
+      <HiMiniEye style={{fontSize:'38px',color:'#00000F'}} />
     </div>
     <div className="whychooseus-item-content">
       <h3 className="whychooseus-heading dark-title">{pros.titre}</h3>

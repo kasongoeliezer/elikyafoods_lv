@@ -904,7 +904,7 @@ background-size: cover;
   /* height: auto; */
   height: auto; /* provisoire */ 
   /* border: 1px solid blue; */
-  background: linear-gradient(to left, #d7eaf023 69%, #b0b2b41e 100%);
+  background-color: #ffffff;
   /* border-radius: 5px ; */
 
 }
@@ -1067,7 +1067,7 @@ background-size: cover;
   overflow: hidden;
 }
 .maincontain{
-  width: 70%;
+  width: 60%;
   height:100%;
   padding: 100px 9%;
   padding-right: 200px;
@@ -1075,10 +1075,9 @@ background-size: cover;
 }
 .canvas{
   position: relative;
-  width: 30%;
+  width: 40%;
   height:auto;
   padding: 30px 10px;
-  overflow: hidden;
 }
 .canvas1{
   position: absolute;
@@ -1116,6 +1115,9 @@ background-size: cover;
   justify-content: center;
   align-items: center;
 overflow: hidden;
+}
+.canvas3 {
+
 }
 
 
@@ -1773,20 +1775,20 @@ overflow: hidden;
     }
     .canvas1{
       position: absolute;
-      height: 500px;
-      width: 500Px; 
+      height: 400px;
+      width: 400Px; 
       top:80px; 
-      left: 200px;
+      left: 180px;
       border-radius: 80% 60% 60% 20%;
       /* bottom: 20px; */
-      z-index: 1;    
+       z-index: 1;    
        background-color: #1b4733b0; 
     }
     .canvas2{
       position: absolute;
-      height: 380px;
-      width: 380Px;  
-      left: 30px;
+      height: 320px;
+      width: 320Px;  
+      left: 90px;
       border-radius: 50%;
       top: 30px;
       background-color: #0202028e;
@@ -1798,7 +1800,7 @@ overflow: hidden;
       position: absolute;
       height: 300px;
       width: 300Px;  
-      left: 30px;
+      left: 20px;
       border-radius: 30% 60% 40% 60%;
       top: 30px;
       background-color: #a53939;

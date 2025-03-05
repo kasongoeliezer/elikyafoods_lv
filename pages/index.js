@@ -34,7 +34,8 @@ subsets: ["latin"],
 export async function getServerSideProps() {
   try {
 
-      const response = await fetch('https://eliezerspace.org/fetchData/api.php?fetchdata=home');
+      //const response = await fetch('https://eliezerspace.org/fetchData/api.php?fetchdata=home');
+const response = await fetch('http://localhost/ELIKYAFOOSFRONT/FetchDAta/api.php?fetchdata=home');
     
     if (!response.ok) {
       throw new Error(`Erreur HTTP ! status: ${response.status}`);
@@ -88,12 +89,14 @@ export default function Home({
   configs,
   sitecontent
 }) {
+  
   return (
 <>
   <Head>    
     <title>Elikya foods</title>
-    <meta name="description" content="Elikya food is a agrigultural company based in kinshasa, Democratic Replublic of Congo, that aims to redefine the agricultural landscape in the region" />
+    <meta name="description" content={banner.soustitre} />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:image" content={`url(https://eliezerspace.org/elikyafoods-adminspace/Views/Uploads/${banner.cover})`}></meta>
     <link rel="icon" href="favicon.ico" />
   </Head>
   <div className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}>
