@@ -124,7 +124,7 @@ formData.append('subject', subject);
 formData.append('message', message);
 // Envoi de la requête à l'API
 try {
-const response = await fetch('http://localhost/ELIKYAFOOSFRONT/FetchDAta/api.php?proposal=1', {
+const response = await fetch('https://eliezerspace.org/fetchData/api.php?proposal=1', {
 method: 'POST',
 body: formData,
 });
