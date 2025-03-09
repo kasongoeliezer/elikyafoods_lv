@@ -18,7 +18,7 @@ const Hero = (pros) => {
           <p className="mt-3">
             {pros.moreAbout}
           </p>          
-           <a href="/contact" className="btn btn-success main_call_to_action mt-3">WORK WITH US</a>
+           
         </div>
         <div className="hero-sub-container-right">
           {/* <div class="circle_container slide-in-elliptic-top-fwd"

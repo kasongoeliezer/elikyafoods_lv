@@ -41,7 +41,8 @@ subsets: ["latin"],
 
 export async function getServerSideProps() {
 try {
-const response = await fetch('https://eliezerspace.org/fetchData/api.php?fetchdata=home');
+
+ const response = await fetch('https://eliezerspace.org/fetchData/api.php?fetchdata=home');
 
 if (!response.ok) {
 throw new Error(`Erreur HTTP ! status: ${response.status}`);

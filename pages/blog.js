@@ -120,7 +120,7 @@ export default function contact({
             
           <MdDeveloperMode className="dev_icone" />       
            
-           Under developement
+           Under development
         
            </div>    
       </div>   

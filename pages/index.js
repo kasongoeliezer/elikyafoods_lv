@@ -33,7 +33,6 @@ subsets: ["latin"],
 
 export async function getServerSideProps() {
   try {
-
     const response = await fetch('https://eliezerspace.org/fetchData/api.php?fetchdata=home');
     
     if (!response.ok) {
@@ -87,8 +86,7 @@ export default function Home({
   allteam,
   configs,
   sitecontent
-}) {
-  
+}) {  
   return (
 <>
   <Head>    
@@ -153,13 +151,13 @@ export default function Home({
 <p className="sm-light-text">      
 {sectionsustainability_datas.soustitre}
 </p>
-<a href="/contact" className="btn btn-success main_call_to_action mt-3" style={{backgroundColor:"rgb(255 108 55)",borderRadius:"0px"}}>CONTACT US</a>
+
 </div>
 <div className='canvas'>
  <div className='canvas1'></div> 
  <div className='canvas2'></div>
  <div className='canvas3'>
-   <img src="sites_images/im2.jpg"/> 
+   <img src="sites_images/im4.jpg"/> 
  </div> 
 </div>
 </div>

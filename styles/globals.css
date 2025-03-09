@@ -882,12 +882,12 @@ background-size: cover;
 .sm-light-text{
   color:#F7F7F7;
   font-weight: 100;
-  font-size: 14px;
+  font-size: 15px;
 }
 .sm-dark-text{
   color:#1B1B1B;
   font-weight: 100;
-  font-size: 14.5px;
+  font-size: 15.5px;
 
 }
 .mission-z2{
@@ -1116,9 +1116,7 @@ background-size: cover;
   align-items: center;
 overflow: hidden;
 }
-.canvas3 {
 
-}
 
 
 
@@ -1803,7 +1801,6 @@ overflow: hidden;
       left: 20px;
       border-radius: 30% 60% 40% 60%;
       top: 30px;
-      background-color: #a53939;
       z-index: 4;
       display: flex;
       justify-content: center;
@@ -1822,8 +1819,8 @@ overflow: hidden;
     }
     .Partenershipfom input, .Partenershipfom textarea {
       color:#141414 !important;
-      padding: 18px 20px !important;
-      font-size: 16px !important;
+      padding: 1px 20px !important;
+      font-size: 17px !important;
       font-weight: 200 !important;
     }
     .soustainability_peech{
@@ -1927,7 +1924,7 @@ overflow: hidden;
   background-color: #012715;
   box-shadow: 0px 0px 30px 0px #9b9a9a2f;
   margin-top: 20px;
-  border-radius: 20px;
+  border-radius: 0px;
   padding-bottom: 20px;
   padding-top: 20px;
   padding-left: 20px !important;
@@ -1955,7 +1952,7 @@ overflow: hidden;
 }
 .Partenershipfom input, .Partenershipfom textarea {
   color:#141414 !important;
-  padding: 6px 8px !important;
+  padding: 12px 19px !important;
   font-size: 13px;
   font-weight: 100;
   outline: 0;
