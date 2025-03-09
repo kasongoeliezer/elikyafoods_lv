@@ -117,9 +117,9 @@ export default function Home({
         </div>
         <div className="avantages-right">
           
-          <h2 className="light light-title">{sectionavantagetitle_datas.titre_avantagecompetitive}</h2>
+          <h2 className="light-title light-title-2">{sectionavantagetitle_datas.titre_avantagecompetitive}</h2>
           <p className="font-size-17">
-            <span className="particulartext">
+            <span className="">
             {sectionavantagetitle_datas.sous_titre_avantagecompetitive}
             </span>
             </p>
@@ -144,7 +144,7 @@ export default function Home({
 
 <div className='durabilite'>
 <div className='maincontain'>
-<h3 className="whychooseus-heading light-title">
+<h3 className="whychooseus-heading light-title light-title-2">
 
  {sectionsustainability_datas.titre}
 </h3>

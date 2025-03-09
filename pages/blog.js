@@ -116,7 +116,7 @@ export default function contact({
     </div> 
     </div>
       <div className="blogsection"> 
-      <div className="under_blogsection">       
+      <div className="under_blogsection" style={{textAlign:'center',width:"70%"}}>       
             
           <MdDeveloperMode className="dev_icone" />       
            

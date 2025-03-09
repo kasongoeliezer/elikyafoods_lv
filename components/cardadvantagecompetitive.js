@@ -13,7 +13,7 @@ const AvantagesCard = (pros) => {
 
     if(pros.icone=="FaArrowTrendUp"){
         return (
-            <div className="col-lg-4 col-6 col-md-6 container_gradient_varient1">
+            <div className="col-lg-4 col-6 col-md-6 ">
             <div className="whychooseus-item">    
               <div className="whychooseus-item-icon">                          
               <Iconsfa.FaArrowTrendUp style={{fontSize:'50px'}} />
@@ -30,10 +30,11 @@ const AvantagesCard = (pros) => {
       }
       else if(pros.icone=="GrDeliver"){
         return (
-            <div className="col-lg-4 col-6 col-md-6 container_gradient_varient3">
+            <div className="col-lg-4 col-6 col-md-6 ">
             <div className="whychooseus-item">    
               <div className="whychooseus-item-icon">                          
-              <Iconsgr.GrDeliver style={{fontSize:'50px'}} />              </div>
+              <Iconsgr.GrDeliver style={{fontSize:'50px'}} />            
+            </div>
               <div className="whychooseus-item-content">
               <h3 className="whychooseus-heading light-title">{pros.titre}</h3> 
                 <span className="sm-light-text">                     
