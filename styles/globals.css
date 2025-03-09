@@ -1858,8 +1858,8 @@ overflow: hidden;
    margin-top: -160px !important; 
   z-index: 100000000;
   margin-bottom: 100px;
-  width: 96%;
-  padding-left: 3%;
+  width: 100%;
+  /* padding-left: 3%; */
   display: flex;
   flex: row;
 
