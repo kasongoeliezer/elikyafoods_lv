@@ -292,7 +292,7 @@ h6 {
 .header {
   color: #0f0e0e;
   background-color: #ffffff;
-  padding: 11px 10px;
+  padding: 23px 10px;
   width: 100%;
   transition: all 0.5s;
   position: absolute;
@@ -1312,6 +1312,7 @@ overflow: hidden;
 }
 
 .footer .footer-links ul {
+  display: block;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -1359,6 +1360,10 @@ overflow: hidden;
   margin-top: 5px;
   font-size: 13px;
 }
+.social-links{
+  position: relative;
+  display: flex;
+}
 
 .footer .social-links a {
   font-size: 18px;
@@ -1373,6 +1378,10 @@ overflow: hidden;
   width: 36px;
   height: 36px;
   transition: 0.3s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
  
 }
 
@@ -1539,9 +1548,109 @@ overflow: hidden;
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color) 90%, black 15%);
 }
+.sm-light-text3{
+  font-size: 15.5px !important;
+  font-weight: 100 !important;
+  color: #acafae;
+}
+@media (min-width: 501px) and (max-width: 800px) {
+   .contactAbslolution{
+    top: 0px;
+    padding: 10px 10px; 
+  }
+  .hero-sub-container-left{
+    width: 100%;
+    padding: 30% 10% !important;
+    padding-top: 170px !important;
+  }
+  .avantages-right{
+    padding: 10% 10% !important;
+    
+  }
+  .whychooseus-item{
+    padding: 5px 5px;
+  }
+  .light-title{
+   font-size: 18px;
+  }
+  .light-title-2{
+    font-size: 22px;
+  }
+  .sm-light-text{
+    font-size: 14px !important;
+  }
+  .dark-title{
+    font-size: 18px !important;
+  }
+  .sm-dark-text{
+    font-size: 14px !important;
+  }
+  .maincontain{
+    padding: 10% 10% !important; 
+  }
+  .mission-z1{
+    padding: 10% 10% !important;
+  }
+  
+  .canvas1{
+    left:200px !important;
+  }
+  .canvas3{
+    left:30% !important;
+  }
+
+}
+@media (min-width: 801px) and (max-width: 1000px) {
+  .hero-sub-container-left{
+    position: relative;
+    width: 100%;
+    padding: 20px 30px;
+    padding-top: 120px;
+  }
+  .avantages-right{
+    padding: 10px 10px;
+    
+  }
+  .whychooseus-item{
+    padding: 5px 5px;
+  }
+  .light-title{
+   font-size: 18px;
+  }
+  .light-title-2{
+    font-size: 22px;
+  }
+  .sm-light-text{
+    font-size: 14px !important;
+  }
+  .dark-title{
+    font-size: 18px !important;
+  }
+  .sm-dark-text{
+    font-size: 14px !important;
+  }
+  .maincontain{
+    width: 70%;
+    height:100%;
+    padding: 40px 30px;
+    /* padding-right: 200px;
+    background-color: #4b884da1; */
+  }
+  .mission-z1{
+    padding: 10px 10px;
+  }
+  
+  .canvas1{
+    left:-80px
+  }
+  .canvas3{
+    left:-30px
+  }
+}
 
 
-@media (min-width: 10px) and (max-width: 500px) {
+
+@media (min-width: 10px) and (max-width: 800px) {
   .header {
     color: #0f0e0e;
     background-color: #ffffff;
@@ -1846,12 +1955,10 @@ overflow: hidden;
       width: 90%;
       font-size: 12px;
     }
-
-    
-
-
-
-
+    .sm-light-text3{
+      font-size: 12.5px !important;
+      color: #acafae;
+    }
 
 }
 .main_call_to_action{

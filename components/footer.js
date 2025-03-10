@@ -18,8 +18,8 @@ return (
               <img src="sites_images/logo.png" alt="Elikyafoods" height="320px" />
             </span>
           </a>
-          <div className="footer-contact pt-1 pr-4">        
-           <p>
+          <div className="footer-contact pt-1 pr-4 sm-light-text3">        
+           <p className="sm-light-text3">
             {props.about_us}
            </p>
            <p>
@@ -29,23 +29,23 @@ return (
         </div>
 
 
-        <div className=" col-6 col-lg-3 col-md-4 footer-links">
+        <div className=" col-6 col-lg-3 col-md-4 footer-links sm-light-text3">
           <h4>Useful Links</h4>
           <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/#avantages">What we do</a></li>
             <li><a href="/#mission">About us</a></li>
             <li><a href="/#soustainability">Soustainability</a></li>
-            <li><a href="/contact">Work with us</a></li>
+  
           </ul>
         </div>
-        <div className="col-6 col-lg-3 col-md-6 footer-about">
+        <div className="col-6 col-lg-3 col-md-6 footer-about sm-light-text3">
         <h4>Contacts infos</h4>
 
-          <div className="footer-contact pt-1">        
-            <p>{props.adresse}</p>
-            <p className="mt-3"><strong> <Iconsfa.FaSquarePhone className='my_iicone' style={{fontSize:"18px"}}/> </strong> <span>{props.phone1}, {props.phone2}</span></p>
-            <p><strong><Iconsfa.FaEnvelope className='my_iicone' style={{fontSize:"17px"}}/> </strong> {props.email}</p>
+          <div className="footer-contact pt-1 sm-light-text3">        
+            <p className="sm-light-text3">{props.adresse}</p>
+            <p className="mt-3 sm-light-text3"><strong> <Iconsfa.FaSquarePhone className='my_iicone' style={{fontSize:"18px"}}/> </strong> <span>{props.phone1}, {props.phone2}</span></p>
+            <p className="mt-3 sm-light-text3"><strong><Iconsfa.FaEnvelope className='my_iicone' style={{fontSize:"17px"}}/> </strong> {props.email}</p>
           </div>
         </div>
 
@@ -57,18 +57,20 @@ return (
 
   <div className="copyright text-center">
     <div
-      className="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+      className="container sm-light-text3 d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
 
       <div className="d-flex flex-column align-items-center align-items-lg-start">
         <div>
           © Copyright <strong><span>Elikya foods 2025</span></strong>. All Rights Reserved
         </div>
-        <div className="credits">
-          Designed by <a href="https://kasongoeliezer.vercel.app">Eliezer kasongo</a>
+        <div className="credits sm-light-text3">
+          Designed by <a href="https://kasongoeliezer.vercel.app">Kasongo Eliézer</a>
         </div>
       </div>
 
-      <div className="social-links order-first order-lg-last mb-3 mb-lg-0">
+      <div className="social-links d-none order-first order-lg-last mb-3 mb-lg-0">
+
+        
         <a href={props.facebook} style={{fontSize:'20px',color:' #F8F8F8',display:'flex',justifyItems:'center'}}>
           <Iconsfa.FaFacebook/>
         </a>
