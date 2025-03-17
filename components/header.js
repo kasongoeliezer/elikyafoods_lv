@@ -9,7 +9,10 @@ import Navigationbar from './navigationbar';
 import * as Iconsfa from "react-icons/fa6";
 
 
+
+
 const MainHeader = (props) => {
+
 
   return (
     <header  className="header d-flex align-items-center position-relative">
@@ -34,6 +37,9 @@ const MainHeader = (props) => {
             <Iconsfa.FaEnvelope className='my_iicone' style={{fontSize:"17px"}}/>   {props.email} 
             </span>
           </div>
+
+  
+
         </div>
       </header>
 

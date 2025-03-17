@@ -7,7 +7,7 @@ import styles from "@/styles/Home.module.css";
 import Hero from "../components/baniere";
 import Script from "next/script";
 import Footer from "../components/footer";
-
+import GTranslate from "@/components/Gtranslate"; 
 import AvantagesCard from '../components/cardadvantagecompetitive';
 import Missioncard from '../components/cardmission';
 import * as Iconsfi from "react-icons/fi";
@@ -19,6 +19,8 @@ import * as Iconstfi from "react-icons/tfi";
 import * as Iconsci from "react-icons/ci"; 
 import {motion} from 'framer-motion';
 
+
+
 const geistSans = Geist({
 variable: "--font-geist-sans",
 subsets: ["latin"],
@@ -28,6 +30,9 @@ const geistMono = Geist_Mono({
 variable: "--font-geist-mono",
 subsets: ["latin"],
 });
+
+
+
 
 
 
@@ -87,6 +92,9 @@ export default function Home({
   configs,
   sitecontent
 }) {  
+
+
+  
   return (
 <>
   <Head>    
@@ -100,15 +108,23 @@ export default function Home({
     <div className="preloader"></div> 
     <main className={styles.main}>
     <div className="div_transition" style={{backgroundImage: 'url(/sites_images/cover2.jpg)'}}></div>
+    <div className="translate_section">
+    <GTranslate />
+    </div>
       <Hero 
       titreprojet={banner.soustitre}
+      
       moreAbout={banner.descriptionduprogramme} 
       cover= {banner.immagedecouverture}
       phone_pr={configs.telephone1} 
       email_pr={configs.email}
       activepage="home"  
-      />      
+      />  
+           
+        
+       
       <section id="avantages">  
+        
         <div className="avantages">
 
         <div className="avantages-left" style={{backgroundImage:'url(sites_images/bg2.png)'}}>
@@ -121,8 +137,11 @@ export default function Home({
           <p className="font-size-17">
             <span className="">
             {sectionavantagetitle_datas.sous_titre_avantagecompetitive}
+
             </span>
+
             </p>
+
           
           <div className="row g-0 container_chus">      
 

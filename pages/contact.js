@@ -16,6 +16,7 @@ import * as Iconstfi from "react-icons/tfi";
 import * as Iconsci from "react-icons/ci";
 import { IoWaterOutline } from "react-icons/io5";
 import { MdSolarPower } from "react-icons/md";
+import GTranslate from "@/components/Gtranslate"; 
 
 
 import React, { useState } from 'react';
@@ -164,7 +165,9 @@ return (
   <div className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}>
     <div className="preloader"></div>
     <main className={styles.main}>
-
+    <div className="translate_section">
+    <GTranslate />
+    </div>
       <div className="heroMaicontainer2">
         <div className="heroMaicontainer">
           <div className="main-cover2" style={{backgroundImage:'url(sites_images/f.webp)'}}>

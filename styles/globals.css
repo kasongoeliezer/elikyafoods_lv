@@ -2113,3 +2113,51 @@ overflow: hidden;
 .dev_icone{
   font-size: 160px;
 }
+
+.translate_section{
+  position: absolute;
+  position: fixed; 
+  z-index: 30000000000000;
+  bottom: 65px;
+  right: 2%;  
+  padding: 20px 30px;
+  /* background-color: #ffffffa2;
+  color: rgb(0, 0, 0); */
+}
+@media (min-width: 500px) and (max-width: 30000px) {
+  .translate_section{
+    bottom: 37px;
+    right: 6%; 
+  }
+}
+
+.gtranslate_wrapper{
+  font-size: 20px !important;
+  
+}
+.gtranslate_wrapper {
+  transform: scale(0.9); /* Réduit la taille à 80% */
+  border-radius: 4px !important;
+  box-shadow: 0px 20px 20px 10px #81a18f2a !important;
+  background-color: #ffffff !important;
+  padding: 9px 10px !important;/*  Réduit l'espace interne */ 
+  color:#012715;
+  font-size: 20px;
+
+
+
+}
+
+
+.gtranslate_wrapper select {
+  font-size: 17px !important; /* Réduit la taille du texte*/ 
+  text-align: left !important;
+}
+.nturl{
+  font-weight: 500 !important;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+  font-size: 18px !important;
+  background-color: inherit !important;
+  color:#000000
+
+}

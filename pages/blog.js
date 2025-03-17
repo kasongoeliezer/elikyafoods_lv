@@ -6,6 +6,7 @@ import Hero from "../components/baniere";
 import Script from "next/script";
 import Footer from "../components/footer";
 import MainHeader from "@/components/header";
+import GTranslate from "@/components/Gtranslate"; 
 
 import * as Iconsfi from "react-icons/fi";
 import * as Iconsfa from "react-icons/fa6";
@@ -102,11 +103,15 @@ export default function contact({
   <div className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}>
     <div className="preloader"></div>
     <main className={styles.main}>
+    <div className="translate_section">
+    <GTranslate />
+    </div>
     <div className="heroMaicontainer2">
     <div className="heroMaicontainer">
     <div className="main-cover2"
           style={{backgroundImage:'url(sites_images/f.webp)'}}
          >
+
       <MainHeader phone={configs.telephone1} 
       email={configs.email} activepage="blog"/> 
       <div className="hero-sub-container2">  
