@@ -32,7 +32,7 @@ function Navigationbar(props) {
             >
                <li><a href="/#avantages"  style={{color:'#1B1B1B',fontSize:'16px',fontWeight:'200'}}>What we do</a></li>
                <li><a href="/#mission" style={{color:'#1B1B1B',fontSize:'16px',fontWeight:'200'}} >About us</a></li>
-               <li><a href="/#soustainability" style={{color:'#1B1B1B',fontSize:'16px',fontWeight:'200'}} >Soustainability</a></li> 
+               <li><a href="/#soustainability" style={{color:'#1B1B1B',fontSize:'16px',fontWeight:'200'}} >Sustainability</a></li> 
               
             </NavDropdown>
                 
