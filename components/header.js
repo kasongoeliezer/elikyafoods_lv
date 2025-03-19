@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Sidebar from "../components/sidebar";
 import { useState } from 'react';
 import Navigationbar from './navigationbar';
+import GTranslate from "@/components/Gtranslate"; 
 
 import * as Iconsfa from "react-icons/fa6";
 
@@ -37,7 +38,9 @@ const MainHeader = (props) => {
             <Iconsfa.FaEnvelope className='my_iicone' style={{fontSize:"17px"}}/>   {props.email} 
             </span>
           </div>
-
+          <div className="translate_section"> 
+                <GTranslate />
+          </div>
   
 
         </div>

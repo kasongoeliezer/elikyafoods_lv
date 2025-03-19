@@ -7,7 +7,6 @@ import styles from "@/styles/Home.module.css";
 import Hero from "../components/baniere";
 import Script from "next/script";
 import Footer from "../components/footer";
-import GTranslate from "@/components/Gtranslate"; 
 import AvantagesCard from '../components/cardadvantagecompetitive';
 import Missioncard from '../components/cardmission';
 import * as Iconsfi from "react-icons/fi";
@@ -109,7 +108,7 @@ export default function Home({
     <main className={styles.main}>
     <div className="div_transition" style={{backgroundImage: 'url(/sites_images/cover2.jpg)'}}></div>
     <div className="translate_section">
-    <GTranslate />
+    
     </div>
       <Hero 
       titreprojet={banner.soustitre}
@@ -143,7 +142,7 @@ export default function Home({
             </p>
 
           
-          <div className="row g-0 container_chus">      
+          <div className="row g-0 container_chus">     
 
           {allavantages.slice(0, 4).map((e) => {     
             return (

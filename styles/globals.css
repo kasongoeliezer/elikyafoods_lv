@@ -281,12 +281,12 @@ h6 {
   position: absolute;
   background-color:rgb(255 108 55);
   right:0px;
-  top: 15px;
+  top: -23px;
   color:#ffffff;
   font-size: 14px;
-  padding: 30px 30px;
+  padding: 35px 15px;
   font-weight: 200;
-  border-radius: 3px; 
+
 
 }
 .header {
@@ -1601,6 +1601,24 @@ overflow: hidden;
 
 }
 @media (min-width: 801px) and (max-width: 1000px) {
+  .header {
+    color: #0f0e0e;
+    background-color: #ffffff;
+    padding: 22px 0px !important;
+
+  }
+  .navmenu ul li a {
+    font-size: 13px;
+  }
+  .navmenu ul li a {
+    padding-left: 13px;
+  }
+  .translate_section{
+    margin-right: 120px !important;
+  }
+  .contactAbslolution{
+    padding: 30px 15px;
+  }
   .hero-sub-container-left{
     position: relative;
     width: 100%;
@@ -2116,48 +2134,79 @@ overflow: hidden;
 
 .translate_section{
   position: absolute;
-  position: fixed; 
+  /* position: fixed;  */
   z-index: 30000000000000;
-  bottom: 65px;
-  right: 2%;  
-  padding: 20px 30px;
+  padding-top: 0; 
+  right: 0 !important;
+  
+  margin-right: 0px !important;
+  z-index: 30000000000000;
+  box-shadow: none;
+
+  
+  /* padding: 20px 30px; */
   /* background-color: #ffffffa2;
   color: rgb(0, 0, 0); */
 }
-@media (min-width: 500px) and (max-width: 30000px) {
-  .translate_section{
-    bottom: 37px;
-    right: 6%; 
+@media (min-width: 600px) and (max-width: 30000px) {
+  .gtranslate_wrapper {   
+    
   }
 }
 
+@media (min-width: 0px) and (max-width: 599px) {
+  .gtranslate_wrapper {   
+    margin-top: 50px !important;
+  }
+  .translate_section{
+     margin-right: 160px !important;
+     margin-top: -9px;
+  }
+
+}
+
 .gtranslate_wrapper{
-  font-size: 20px !important;
+  font-size: 16px !important;
   
 }
+.gt_float_switcher{
+  font-size: 13px !important;
+  padding-left: 10px;
+  box-shadow: none !important;
+}
 .gtranslate_wrapper {
-  transform: scale(0.9); /* Réduit la taille à 80% */
+  transform: scale(0.8); /* Réduit la taille à 80% */
   border-radius: 4px !important;
-  box-shadow: 0px 20px 20px 10px #81a18f2a !important;
+  /* box-shadow: 0px 20px 20px 10px #81a18f2a !important; */
   background-color: #ffffff !important;
-  padding: 9px 10px !important;/*  Réduit l'espace interne */ 
   color:#012715;
-  font-size: 20px;
-
-
-
+  font-size: 16px !important;
+  margin-top: -33px !important;
+}
+.gt-current-lang img {
+  height:24px !important;
 }
 
 
 .gtranslate_wrapper select {
-  font-size: 17px !important; /* Réduit la taille du texte*/ 
+  font-size: 16px !important; /* Réduit la taille du texte*/ 
   text-align: left !important;
+  padding-right: 10px !important;
+  /* color:red !important;
+  font-weight: 300px; */
 }
 .nturl{
   font-weight: 500 !important;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
-  font-size: 18px !important;
+  font-size: 17px !important;
   background-color: inherit !important;
-  color:#000000
+  color:#000000;
+  /* padding-left:4px */
+  padding-left: 6px !important;
+  padding-right: 18px !important;
+}
+.nturl:hover{
+  color:rgb(7, 34, 23) !important;
+  font-weight: 300px !important;
 
 }

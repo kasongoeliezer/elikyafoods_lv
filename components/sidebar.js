@@ -3,6 +3,8 @@ import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Navigationbar from './navigationbar';
 import { FaAlignRight } from "react-icons/fa6"
+import GTranslate from "@/components/Gtranslate"; 
+
 function Sidebar() {
   const [show, setShow] = useState(false);
 
@@ -21,12 +23,14 @@ function Sidebar() {
           <Offcanvas.Title>Menu</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-        <span className="Momnavbar_def">
+        <div className="Momnavbar_def">
           <nav className="navmenu">
-          <Navigationbar/>
-          </nav>
-        </span>        
+          <Navigationbar/>     
+          </nav>    
+        </div> 
+            
         </Offcanvas.Body>
+        
       </Offcanvas>
     </>
   );

@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
+
 function Navigationbar(props) {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
@@ -38,8 +39,7 @@ function Navigationbar(props) {
               </li>
               <li><a href="/blog">Blog</a></li>
               <li><a href="/contact">Contact us</a></li>
-              <li>                
-              </li>
+              
             </ul>
             
           
